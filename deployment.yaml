@@ -17,7 +17,7 @@ spec:
       containers:
       - name: tictactoe
         # Replace <account-id> with your AWS account ID after pushing to ECR
-        image: <account-id>.dkr.ecr.us-east-1.amazonaws.com/tictactoe:latest
+        image: 531988093830.dkr.ecr.us-east-1.amazonaws.com/tictactoe:latest
         ports:
         - containerPort: 6080
         readinessProbe:
